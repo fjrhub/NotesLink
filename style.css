@@ -1,0 +1,38 @@
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Gaya untuk kontainer kotak link */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk kotak link */
+.link-box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.link-box:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+}
+
+/* Gaya untuk teks link */
+.link-text {
+    margin-top: 10px;
+    font-weight: bold;
+}
